@@ -1,0 +1,865 @@
+/**=header**/
+
+body{
+	font-family:Century gothic, sans-serif;
+	color:white;
+	background:black;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment:fixed; 
+	margin:0;
+	top:0;
+}
+
+
+p{
+	font-family:Century gothic;
+}
+
+@media only screen and (min-width:601px)
+{
+header{
+
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height:110px;
+	z-index: 10;
+	top:0;
+	position:fixed;
+	
+}
+}
+
+@media only screen and (max-width:600px)
+{
+header{
+
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height:100px;
+	z-index: 10;
+	top:0;
+	
+}
+}
+
+
+.main h3{
+	color:red;
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 9px;
+	text-transform: uppercase;
+	font-family:Century gothic;
+	text-align: left;
+
+}
+
+
+header a, a{
+	text-decoration:none;
+	color:white;
+}
+
+header a:hover{
+	text-decoration: none;
+}
+
+.wrap{ 
+	position:relative; 
+	top: 45px;
+	width:100%;
+	background: rgba(0,119,51,0.6);
+	color:white;
+	padding:0;
+	margin:0;
+}
+/**=logo**/
+.emblem, .emblem_2 {
+		max-width:40px;
+		min-width:30px;
+		height: 90px;
+		top:4px;
+		position: relative;
+		margin:auto;
+}
+
+
+/*For mobile devices*/
+@media only screen and (max-width: 600px)
+{
+.logo {position:relative;
+		
+		width:60px; 
+		height:65px;  
+}
+}
+
+
+/*For tablets and laptops*/
+@media only screen and (min-width: 601px)
+{
+.logo {position:relative;
+		
+		width:81px; 
+		height:90px;  
+}
+}
+
+
+/*For mobile devices*/
+@media only screen and (max-width: 600px)
+{
+.emblem td:nth-child(2){
+	display:none;} 
+
+.emblem { padding-right:10px;
+		  padding-left:10px;
+}
+
+.emblem td:last-child{ padding-left:5px;
+}
+
+
+}
+
+
+
+
+.emblem td:nth-child(2), 
+.emblem_2 td:nth-child(2) {
+		padding-top:4px;
+
+}
+.emblem td:nth-child(2) strong,
+.emblem_2 td:nth-child(2) strong {
+	font-family: Calibri, sans-serif;
+	color:white;
+	text-transform: uppercase;
+	line-height:13px;
+	padding-top: 5px;
+	padding-left:3px;
+	font-weight: normal;
+
+}
+
+.emblem td:nth-child(2) strong:first-child,
+.emblem_2 td:nth-child(2) strong:first-child{
+	font-size: 33px
+}
+
+.emblem td:nth-child(2) strong:nth-child(2),
+.emblem_2 td:nth-child(2) strong:nth-child(2){
+	font-size: 26px
+}
+
+.emblem td:nth-child(2) strong:nth-child(3),
+.emblem_2 td:nth-child(2) strong:nth-child(3){
+	font-size: 25px
+}
+.emblem td:nth-child(2) strong:last-child,
+.emblem_2 td:nth-child(2) strong:last-child {
+	font-size: 16px;
+	display: block;
+	border-top: 2px solid orange;
+	text-align:center;
+	padding-left:0px;
+}
+
+/**=nav**/
+.nav{
+	text-transform: uppercase;
+	font-family: Century gothic;
+	position: relative;
+	list-style-type: none;
+	margin:auto;
+	top:9px;
+	padding: 0 9px 9px 0;
+	text-align: center;
+	border-bottom:1px solid white;
+	width:63%;
+}
+.nav li{
+	display:inline-block;
+	padding-bottom:5px;
+}
+
+.nav a{color:white;
+	text-decoration:none;
+	font-size:14px;
+	font-family:century gothic;
+	padding:9px;
+}
+
+.nav a:hover {
+		text-decoration:none; 
+		color:orange;
+}
+
+ .download li a:hover{
+ 	color:orange;
+ 	text-decoration: none;
+}
+
+
+.active a{
+		color:orange;
+}
+
+.main{
+	top:10px;
+	position: relative;
+	width:80%;
+	margin:auto;
+	line-height: 20px
+}
+
+
+/*For mobile devices*/
+@media only screen and (max-width:600px)
+{
+
+	.main{
+	top:10px;
+	position: relative;
+	width:90%;
+	margin:auto;
+	line-height: 20px;
+	font-size: 16px
+}
+
+ .headline, .headline_grad, .headline_open_day{
+	position:relative;
+	top:-35px;
+	font-family:sans-serif;
+	font-size:180%;
+	color:orange;
+	padding-bottom: 0;
+	font-weight:bold;
+	font-style: italic;
+	text-shadow: 2px 2px 2px black ;
+	position:relative;
+	text-transform: uppercase;
+}
+
+.headline
+{
+	background:url(../img/final_selection/homepage/au_day_homepage.jpg);
+	width:100%;
+	height:200px;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.headline_grad {
+    background: url(../img/final_selection/homepage/graduation_homepage.jpg);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.headline_open_day {
+    background: url(../img/final_selection/homepage/open_day.JPG);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+
+
+
+/*For tablets and pcs*/
+@media only screen and (min-width:601px)
+{
+ .headline, .headline_grad, .headline_open_day{
+	position:relative;
+	top:90px;
+	font-family:sans-serif;
+	font-size:35px;
+	color:orange;
+	text-shadow: 2px 2px 2px black ;
+	padding-bottom: 0;
+	font-weight: normal;
+	position:relative;
+	text-transform: uppercase;
+}
+
+.headline
+{
+	background:url(../img/final_selection/homepage/au_day_homepage.jpg);
+	width:100%;
+	height:500px;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.headline_grad {
+    background: url(../img/final_selection/homepage/graduation_homepage.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.headline_open_day {
+    background: url(../img/final_selection/homepage/open_day.JPG);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+
+/**Welcome**/
+.welcome_address{
+	font-family: century gothic;
+	margin:auto;
+	min-width: 360px;
+	height:fit-content;
+	position:relative;
+}
+.welcome_address img{
+	width:108px;
+	height:108px; 
+	float:left
+}
+.read_more{
+	border: 1px solid white;
+	padding:4px;
+	border-radius: 6px;
+	background:white;
+	color:orange;
+}
+
+
+/*for mobile devices*/
+@media only screen and (max-width:600px)
+{
+.story{
+	position:relative;
+	width:100%;
+	top:-120px;
+	float: left;
+	font-family: sans-serif;
+	margin:auto;
+	font-size: 16px; 
+	text-align: justify;
+	padding-bottom: 2%;
+
+}
+
+.story img{
+	position:relative;
+	width:100px;
+	height:100px; 
+	float:left;
+	padding:0px;
+	padding-top: 25px;
+	padding-right:10px; 
+}
+
+.author{
+	margin-top: 70px;
+	font-size:20px; 
+	display:block;
+	font-style: italic;
+}
+}
+
+
+
+
+/*for tablets and pcs*/
+@media only screen and (min-width:601px)
+{
+.story{
+	position:relative;
+	width:70%;
+	padding-top:10px;
+	padding-bottom: 5px;
+	float: left;
+	font-family: sans-serif;
+	margin:5px;
+	line-height: 30px
+
+}
+
+
+.summary{
+	margin-left: 40px;
+	position:relative;
+	top:80px;
+	width:20%;
+	padding:0;
+	padding-bottom: 5px;
+	display:inline-block;
+	margin:20px;
+}
+
+
+
+.story img{
+	position:relative;
+	top:15px;
+	width:150px;
+	height:170px; 
+	float:left;
+	padding:10px;
+}
+
+.author,.gist{
+	margin-top: 50px;
+	font-size:35px; 
+	display:block;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+.gist{
+	color:red;
+	text-align: center;
+	position:relative;
+	top:-8px;
+}
+}
+
+
+@media only screen and (max-width:600px)
+{
+	.summary{
+		display: none;
+	}
+}
+
+.first_ltr{
+	font-size:50px; 
+	text-transform: uppercase;
+	float:left;
+	margin-top: 10px;
+	line-height: 20px
+}
+
+
+
+
+
+.creche{
+	background:red;
+}
+
+.creche:hover{
+	background:white;
+	color:red;
+}
+
+.kindergarten{
+	background:orange;
+}
+
+.kindergarten:hover{
+	background:white;
+	color:orange;
+}
+
+.primary{
+	background:blue;
+}
+
+.primary:hover{
+	background:white;
+	color:blue;
+}
+
+.second_half{
+	width:70%;
+	margin:auto;
+	position:relative;
+	overflow: auto;
+	padding-bottom:10px;
+}
+
+.grid_4
+{
+	width:25%;
+	display: inline;
+  	float: left;
+    margin:auto;
+  	text-align: center;
+  	font-family: Century gothic, sans-serif; 
+}
+
+
+.grid_4 span{
+	font-size:32px; 
+	display:block;
+	text-transform: uppercase;
+	clear:both;
+	
+}
+
+
+.schoolone, .schooltwo, .sharedimg {
+	width:200px;
+	height:200px;
+}
+
+.schoolone, .sharedimg{
+	float: left;
+}
+
+.schooltwo{
+	float:right;
+}
+
+
+.CoreValue {
+	width:280px;
+	height:280px;
+}
+
+/* Carousel base class */
+.carousel {
+  height: 60%;
+  width:90%;
+  margin: auto;
+  top:25px;
+  position:relative;
+  z-index:10;
+}
+
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height:100%;
+  background-color: none;
+  
+}
+.carousel-inner > .item > img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover; 
+}
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .carousel-caption h1 {
+    font-weight:normal;
+    font-family:Century gothic, sans-serif;
+	font-size:40px;
+  }
+
+
+.divide{
+	top:20px;
+}
+
+
+
+
+
+.gallway {
+	position: relative;
+	top: 0px;
+	font-family: Century gothic, sans-serif;
+	font-size: 25px;
+	padding-bottom:20px;
+	padding-left: 0;
+	text-align: center;
+
+}
+
+
+.gallway li {
+	display: inline-table;
+	padding: 10px;
+
+}
+.gallway li a {
+	color: white;
+	text-decoration: none;
+}
+
+.gallway .testinggal {
+	width: 150px;
+	height: 124px;
+	background: orange;
+	border-bottom: 4px solid green;
+	-webkit-transition: height 2s ease-in-out;
+	transition: height 2s ease-in-out;
+	overflow: hidden;
+}
+
+.gallway .testinggal img {
+	width:150px;
+	height:124px
+}
+
+.gallway .testinggal p{
+	font-family:Century gothic, sans-serif;
+	text-align:center;
+	color:white;
+	font-size:24px;
+	margin:-4px;
+
+}
+
+.testinggal:hover {
+
+	height: 154px;
+	border-bottom: 4px solid orange;
+}
+
+
+/*ContactList*/
+.ContactList{
+	margin-top: 10px;
+}
+
+
+
+.ContactList img{
+	width:100px;
+	height: 100px;
+	padding:15px;
+
+}
+
+.googleLink, .trend{
+	padding:  1px 5px;
+	border: 1px solid orange;
+	color: orange;
+	border-radius: 4px
+
+}
+
+
+/**+News Page**/
+.news_page{
+	width:100%;
+}
+
+
+
+/*For mobile devices*/
+@media only screen and (max-width:600px)
+{
+.shortcut{
+	margin:auto;
+	position: relative;
+	color:white;
+	padding-left: 10%;
+	min-width:80%;
+
+}
+}
+
+/*For laptops and tablets*/
+@media only screen and (min-width:601px)
+{
+.shortcut{
+	position: relative;
+	color:white;
+	padding-left: 28px;
+	top:-15px;
+
+}
+}
+
+.shortcut li{
+	list-style: none;
+	display: inline-block;
+}
+
+
+/*For mobile devices*/
+@media only screen and (max-width:600px)
+{
+.back{
+	border-right: 2px solid;
+	border-bottom: 2px solid;
+	height: 25px;
+	width: 25px;
+	transform: rotate(135deg);
+	margin:-20px;
+}
+
+
+.back:hover {
+	border-right: 2px solid orange;
+	border-bottom: 2px solid orange;
+	height: 25px;
+	width: 25px;
+	transform: rotate(135deg);
+}
+
+.shortcut{
+	position:relative;
+	top:-40px;
+}
+
+.shortcut li:nth-child(2){
+	padding-left:0px;
+
+}
+
+.emblem td:nth-child(3){
+	top:30px;
+	position:relative;
+	font-size: 35px;
+
+}
+
+.emblem td:nth-child(3):before{
+	content:'/';
+	font-size: 40px;
+	color:red;
+}
+
+.logo{
+	position: relative;
+	top:35px;
+}
+
+}
+
+
+/*For tablets and laptops*/
+@media only screen and (min-width:601px)
+{
+
+.back {
+	margin: 20px;
+	padding: 5px;
+	border-right: 3px solid;
+	border-bottom: 3px solid;
+	height: 40px;
+	width: 40px;
+	transform: rotate(135deg);
+}
+
+.back:hover {
+	border-right: 3px solid orange;
+	border-bottom: 3px solid orange;
+	height: 40px;
+	width: 40px;
+	transform: rotate(135deg);
+}
+
+
+.shortcut li:nth-child(1){
+	width:53px;
+
+}
+
+.shortcut li:nth-child(2){
+	padding-left:80px;
+
+}
+
+.emblem td:nth-child(3){
+	position:relative;
+	top:-10px;
+	font-size: 40px;
+
+}
+
+.emblem td:nth-child(3):before{
+	content:'/';
+	font-size: 45px;
+	padding-left: 10px;
+	color:red;
+}
+}
+
+.sitemap a:hover{
+		text-decoration:none; 
+		color:orange;
+}
+
+
+footer
+{
+	margin-top: 0;
+	font-family: Century gothic, sans-serif; 
+	text-align: center;
+	z-index:1;
+	color:white;
+	position: relative;
+	background:rgba(1,121,111,0.8);
+	margin-bottom: -10px
+
+}
+footer ul
+{
+	margin: 0;
+	padding-left: 0px;
+}
+
+footer li{
+	list-style: none;
+	display:inline;
+	padding:10px;
+}
+
+footer img{
+	width: 40px;
+	height: 40px;
+	padding: 5px 0;
+}	
+
+.follow_us{
+	padding-top:5px; 
+	margin-bottom: 6px;
+	position:relative;
+}
+
+.copyright{
+	font-size: 14px;
+	margin-top: 3px;
+	margin-bottom: 0px
+}
+
+
+
+.reminder{
+	font-size: 14px;
+	list-style: none;
+	display:inline-block;
+	padding-top:10px;
+}
+
+.reminder li{
+	padding:10px 0;
+}
+.reminder li:first-child:after
+{content:'|';}
+.reminder li:nth-child(2):after
+{content:'|';}
+
+
+
+
